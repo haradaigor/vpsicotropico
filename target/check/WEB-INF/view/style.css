@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+/* .login-content{ */
+/* 	justify-content: center; */
+/*  	align-items: center; */
+/* } */
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form {
+  margin: 20px 0;
+  backgrounpxcolor: white;
+  padding: 30px 25px;
+  border-radius: 5px;
+}
+
+form .input-block {
+  margin-bottom: 20px;
+}
+
+form .input-block label {
+  font-size: 14px;
+  color: darkslateblue;
+}
+
+
+form .input-block input {
+  width: 100%;
+  display: block;
+  margin-top: 8px;
+  padding: 7px;
+  font-size: 16px;
+  color: #132dc3;
+  border-radius: 2px;
+  border: 1px solid #ccddef;
+  outline-color: #132dc3;
+}
+
+
+
+form .btn-login {
+  display: block;
+  min-width: 120px;
+  border: none;
+  background-color:#c4c4c4;
+  color: white;
+  border-radius: 25px;
+  margin: auto;
+  padding: 7px;
+  
+}
+
+.form-wrapper{
+	margin: 0 auto;
+	border-radius: 25px;
+    border: 1px solid #d2d4d4;
+}
+
+form{
+	animation-name: fade;
+	animation-duration: 1s;
+}
+
+@keyframes fade{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
