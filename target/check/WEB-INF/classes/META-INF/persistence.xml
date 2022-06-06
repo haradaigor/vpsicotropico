@@ -6,7 +6,7 @@
  	<persistence-unit name="vpsicotropico" transaction-type="RESOURCE_LOCAL">
  		<properties>
 			<property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-			<property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/vpsicotropico"/>
+			<property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:/vpsicotropico"/>
 			<property name="jakarta.persistence.jdbc.user" value="client"/>
             <property name="jakarta.persistence.jdbc.password" value="acmesa"/>
             
